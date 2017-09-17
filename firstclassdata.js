@@ -141,19 +141,19 @@
     var descriptor = {
         blocks: [
            // ['r', 'Color %c', 'color'],
-            ['r', 'create list', 'create_list'],
-            ['r', 'item %n of list %s', 'item_of_list'],
+            ['r', 'create list', 'create_list', ''],
+            ['r', 'item %n of list %s', 'item_of_list', 10],
             [' ', 'set item %n of list %s to %s', 'set_item'],
             [' ', 'add %s to list %s', 'add_item'],
             [' ', 'insert %s at %n of list %s', 'insert_item'],
-            ['r', 'length of list %s', 'list_length'],
+            ['r', 'length of list %s', 'list_length', ''],
             [' ', 'delete item %n of list %s', 'delete_item'],
-            ['r', 'create object', 'create_obj'],
+            ['r', 'create object', 'create_obj', ''],
             [' ', 'set property %s of object %s to %s', 'set_prop'],
-            ['r', 'property %s of object %s', 'item_of_obj'],
+            ['r', 'property %s of object %s', 'item_of_obj', ''],
             [' ', 'delete property %s of object %s', 'delete_prop'],
-            ['r', 'object %s as JSON', 'as_json'],
-            ['r', 'create object from JSON %s', 'from_json']
+            ['r', 'object %s as JSON', 'as_json', ''],
+            ['r', 'create object from JSON %s', 'from_json', '']
         ]
     };
 
